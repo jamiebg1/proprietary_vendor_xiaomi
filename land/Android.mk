@@ -255,6 +255,16 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := imscmlibrary
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES := proprietary/framework/imscmlibrary.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := izat.xt.srv
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES := proprietary/framework/izat.xt.srv.jar
@@ -299,6 +309,16 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := tcmclient
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES := proprietary/framework/tcmclient.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := rcsimssettings
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES := proprietary/framework/rcsimssettings.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
